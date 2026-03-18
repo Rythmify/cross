@@ -41,7 +41,7 @@ final _upgradeTabKey = GlobalKey<NavigatorState>(debugLabel: 'upgradeTab');
 final routerProvider = Provider<GoRouter>((ref) {
   return GoRouter(
     navigatorKey: _rootNavigatorKey,
-    initialLocation: '/onboarding',
+    initialLocation: '/home',
 
     routes: [
       //  Profile routes  
